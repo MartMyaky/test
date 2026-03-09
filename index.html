@@ -1,0 +1,8 @@
+<input type="text" id="campo">
+
+<script>
+document.getElementById("campo").addEventListener("paste", function(e) {
+    e.preventDefault();
+    alert("Não pode colar aqui.");
+});
+</script>
